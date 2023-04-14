@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "@kriszu/eslint-config",
+    "@unocss"
+  ]
+}
