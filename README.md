@@ -3,7 +3,7 @@
 > The initial vue3 project created with vite
 
 
-## 特性
+## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - born with fastness!
 
@@ -54,11 +54,11 @@
 - Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
 - [ESLint](https://eslint.org/) with [@kriszu/eslint-config](https://github.com/wangsizhu0504/eslint-config), single quotes, no semi.
 
-### 开发工具
+### Dev tools
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite
 - [pnpm](https://pnpm.js.org/) - fast, disk space efficient package manager
-- [VS Code 扩展](./.vscode/extensions.json)
+- [VS Code Extensions](./.vscode/extensions.json)
   - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - Fire up Vite server automatically
   - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Vue 3 `<script setup>` IDE support
   - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify) - Icon inline display and autocomplete
