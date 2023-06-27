@@ -2,7 +2,5 @@
 </script>
 
 <template>
-  <AConfigProvider>
-    <router-view />
-  </AConfigProvider>
+  <router-view />
 </template>

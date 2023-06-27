@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { message } from 'ant-design-vue/es'
+import { message } from 'ant-design-vue'
 import { useRouter } from 'vue-router'
 import { useUserStore } from '@/store/modules/user'
 
@@ -9,8 +9,7 @@ const userName = ref('')
 function targetWecom() {
   if (!userName.value) {
     message.warn('请输入你的名字')
-  }
-  else {
+  } else {
     userStore.setUserName(userName.value)
     router.push({
       name: 'User',
